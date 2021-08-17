@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F3FB;
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+    width: 550px;
+    height: 550px;
+}
+
+.container-padding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 530px;
+    height: 530px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.button-quit {
+    display: flex;
+    flex-grow: 1;
+    margin-right: -500px;
+}
+
+#cricle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F3FB;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+#x1 {
+    width: 1.5px;
+    height: 15px;
+    background-color: #9CA7BE;
+    transform: rotate(45deg);
+}
+
+#x2 {
+    width: 1.5px;
+    height: 15px;
+    background-color: #9CA7BE;
+    transform: rotate(135deg);
+}
+
+.content {
+    display: block;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    flex-grow: 3;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#gg {
+    display: flex;
+    width: 250px;
+    height: 30px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    background-color: #D44C3C;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+#fb {
+    display: flex;
+    width: 250px;
+    height: 30px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    background-color: #487AB3;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+#tw {
+    display: flex;
+    width: 250px;
+    height: 30px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    background-color: #5e9add;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.require {
+    display: flex;
+    flex-grow: 1;
+}
+
+#check-button {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #9CA7BE;
+    border-style: solid;
+    margin: 2px 5px;
+}
